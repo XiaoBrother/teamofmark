@@ -1,0 +1,149 @@
+<include file="./HOME/Tpl/right.html" />
+<link rel="stylesheet" type="text/css"
+	href="__ROOT__/HOME/Tpl/css/jquery.artZoom.css" media="screen" />
+<script type="text/javascript"
+	src="__ROOT__/HOME/Tpl/js/jquery.artZoom.js"></script>
+<script type="text/javascript"
+	src="__ROOT__/HOME/Tpl/js/picShow/jquery.js"></script>
+<script type="text/javascript"
+	src="__ROOT__/HOME/Tpl/js/picShow/jquery.rotate.js"></script>
+<script type="text/javascript"
+	src="__ROOT__/HOME/Tpl/js/picShow/picShow.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>小组</title>
+
+<style type="text/css">
+body,button,input,select,textarea {
+	font: 14px/1.125 Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content {
+	width: 600px;
+}
+
+.WB_content {
+	border-bottom: #CF0;
+	border-bottom-color: #E6E6E6;
+	border-bottom-style: solid;
+	border: 1px #E6E6E6 solid thin;
+}
+
+.WB_face {
+	margin: 5 5 5 5;
+	float: left;
+	position: relative;
+	width: 50px;
+}
+
+.W_face_radius {
+	display: block;
+	height: 50px;
+	overflow: hidden;
+}
+
+.WB_detail {
+	margin-left: 65px;
+	padding-top: 5px;
+}
+
+.WB_info   .WB_text {
+	line-height: 17px;
+	padding: 5px;
+}
+
+.WB_name {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+}
+
+.WB_media_list {
+	padding: 0 0 15px;
+}
+
+.WB_media_list li {
+	display: inline;
+	margin-right: 3px;
+	margin-top: 3px;
+	vertical-align: top;
+}
+
+.WB_media_list li a.magic_thumb {
+	display: inline-block;
+	height: 50px;
+	overflow: hidden;
+	width: 50px;
+}
+
+.WB_media_list li a img {
+	
+}
+
+.WB_media_list li a .imgicon {
+	display: inline-block;
+}
+
+.WB_media_list li .loading_gif {
+	margin: 0 0 20px -80px;
+	vertical-align: text-bottom;
+}
+
+.WB_media_list li img {
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.WB_media_expand {
+	padding: 10px 20px;
+	margin: 5px 0px 15px;
+	background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+	<div class="content">
+		<volist name="weibo" id="vo">
+		<div class="WB_content">
+			<div class="WB_face">
+				<a class="W_face_radius"
+					href="http://weibo.com/{$vo.user.profile_url}" title=""><img
+					title="{$vo.user.screen_name}" alt=""
+					src="{$vo.user.profile_image_url}" height="50" width="50"></a>
+			</div>
+			<div class="WB_detail">
+				<div class="WB_info">
+					<a class="WB_name" title="{$vo.user.screen_name}"
+						href="http://weibo.com/{$vo.user.profile_url}"
+						nick-name="{$vo.user.screen_name}">{$vo.user.screen_name}</a>
+				</div>
+				<div class="WB_text">{$vo.text}</div>
+				<div id="pic{$i}"></div>
+				<script>
+				$("#pic{$i}").actizPicShow({$vo['picsjson']});
+				</script>
+				<!-- 判断是不是不转发 -->
+				<present name="vo.retweeted_status">
+				<div class="WB_media_expand">
+					<div>
+						<div class="WB_info">{$vo.retweeted_status.source}</div>
+						<div class="WB_text">{$vo.retweeted_status.text}</div>
+						<div id="repic{$i}"></div>
+						<script>
+						$("#repic{$i}").actizPicShow({$vo['repicsjson']});
+						</script>
+					</div>
+
+				</div>
+				</present>
+			</div>
+		</div>
+		</volist>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,559 @@
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4013, 803, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4029, 804, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4033, 804, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER (ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4039, 805, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4044, 805, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values (to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 3980, 792, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 3983, 793, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 3988, 794, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 3991, 795, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 3994, 796, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 3997, 797, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 3998, 798, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4003, 799, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4004, 800, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4009, 801, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+insert into T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('23-05-2013 09:05:47', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4012, 802, 300, to_date('01-05-2013', 'dd-mm-yyyy'), null);
+/*************************/
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4272, 860, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4273, 860, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4281, 861, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4282, 861, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4288, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4294, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4295, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4239, 849, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4243, 850, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4247, 851, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4250, 852, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4253, 853, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4256, 854, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4259, 855, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4262, 856, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4264, 857, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4267, 858, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4269, 859, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+
+/***********************************/
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4273, 860, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4272, 860, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4282, 861, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4281, 861, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4287, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4293, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4294, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4240, 849, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4244, 850, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4248, 851, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4251, 852, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4252, 853, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4257, 854, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4258, 855, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4261, 856, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4263, 857, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4266, 858, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4268, 859, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+/*****************************
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4272, 860, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4274, 860, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4283, 861, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4282, 861, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4288, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4292, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4295, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4240, 849, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4242, 850, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4246, 851, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4252, 852, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4251, 853, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4256, 854, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4255, 855, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4262, 856, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4264, 857, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4265, 858, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4270, 859, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+/***********
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4271, 860, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4274, 860, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4283, 861, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4281, 861, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4287, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4291, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4293, 862, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4241, 849, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4240, 850, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4245, 851, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4251, 852, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4252, 853, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4255, 854, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4254, 855, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4262, 856, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4263, 857, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4264, 858, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into HN_SURVEY.T_ANSWER ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 14:42:23', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4270, 859, 305, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+
+/*****************************************************************
+
+
+
+***********************/
+
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4207, 846, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values (1 to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4208, 846, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4221, 847, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4220, 847, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4230, 848, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4228, 848, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4175, 835, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4184, 838, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4186, 839, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4191, 840, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4192, 841, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4197, 842, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4198, 843, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4203, 844, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4205, 845, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4178, 836, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4182, 837, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+/*******************************************/
+
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4208, 846, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values (1 to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4207, 846, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4222, 847, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4221, 847, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4231, 848, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4227, 848, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4174, 835, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4183, 838, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4185, 839, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4190, 840, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4193, 841, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4196, 842, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4197, 843, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4202, 844, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4204, 845, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4177, 836, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4183, 837, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+/*************************************************/
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4206, 846, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values (1 to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4205, 846, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4222, 847, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4220, 847, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4232, 848, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4227, 848, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4173, 835, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4183, 838, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4184, 839, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4189, 840, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4192, 841, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4195, 842, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4196, 843, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4201, 844, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4204, 845, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4176, 836, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4182, 837, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+/*********************************/
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4206, 846, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values (1 to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4205, 846, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4222, 847, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4220, 847, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4232, 848, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:01:18', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4227, 848, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4173, 835, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4183, 838, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4184, 839, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4189, 840, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4192, 841, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4195, 842, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4196, 843, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4201, 844, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:05', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4204, 845, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4176, 836, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4180, 837, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+insert into t_answer ( ANSWERDATE, USERID, OPTIONID, QUESTIONID, QUESTIONARYID, RPTDATE, OPENANSWER)
+values ( to_date('24-05-2013 15:05:04', 'dd-mm-yyyy hh24:mi:ss'), 5321, 4180, 837, 304, to_date('01-05-2013', 'dd-mm-yyyy'), '');
+
+
+
+
+
+
+
+
+
+/**********************
+    CREATE TABLE IF NOT EXISTS `think_user` (
+      `id` smallint(4) unsigned NOT NULL AUTO_INCREMENT,
+      `username` varchar(255) NOT NULL,
+      `password` varchar(255) NOT NULL,
+      `create_time` int(11) unsigned NOT NULL,
+  `qq` varchar(255) ,
+  `sina` varchar(255),
+`taobao` varchar(255),
+`email` varchar(255),
+      PRIMARY KEY (`id`)
+    ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
+
+
+
+
+
+
+
+
+    CREATE TABLE IF NOT EXISTS `axx_ResourceLibrary` (
+  `res_id` int(8) unsigned NOT NULL AUTO_INCREMENT,
+  `res_url` varchar(255) ,
+    `res_name` varchar(255) ,
+  `res_desc` varchar(255) ,
+  `res_source` varchar(255) ,
+  `res_type` int(8) ,
+  `userid` int(8) ,
+  `create_time` date ,
+  PRIMARY KEY (`res_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
+
+
+
+
+
+    CREATE TABLE IF NOT EXISTS `tom_favorites` (
+  `weibo_id` varchar(255) ,
+  `tags_id` int(8) ,
+    `favorited_time` int ,
+  `tags_count` int ,
+  `tags_tag` varchar(255) ,
+   `userid` int ,
+  `create_time` int ,
+  PRIMARY KEY (`weibo_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
+
+
+
+
+    CREATE TABLE IF NOT EXISTS `tom_team` (
+  `id` int(8) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) ,
+    `owner` varchar(255) ,
+  `introduce` varchar(255) ,
+  `tag` varchar(255) ,
+   `create_time` date ,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
+
+    CREATE TABLE IF NOT EXISTS `tom_teamuser` (
+  `id` int(8) unsigned NOT NULL AUTO_INCREMENT,
+  `teamid` int(8) ,
+    `userid` varchar(255) ,
+  `status` int ,
+
+   `create_time` date ,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
+
+
+
+alter table tom_teamuser add constraint tom_teamuser_teamid_fk Foreign Key (teamid)
+References tom_team (id);
+
+
+alter table   tom_teamuser  drop column id; 
+
+

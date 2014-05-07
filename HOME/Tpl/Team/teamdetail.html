@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>小组</title>
+<link rel="stylesheet" type="text/css"
+	href="http://localhost/teamofmark/HOME/Tpl/css/complete/jquery.atwho.css" />
+<script type="text/javascript"
+	src="http://localhost/teamofmark/HOME/Tpl/js/complete/jquery.js"></script>
+<script type="text/javascript"
+	src="http://localhost/teamofmark/HOME/Tpl/js/complete/jquery.atwho.js"></script>
+</head>
+<style type="text/css" media="screen">
+body {
+	font: 14px/1.6 "Lucida Grande", "Helvetica", sans-serif;
+}
+
+textarea {
+	font-family: 'pt sans', arial, helvetica, sans-serif;
+	font-size: 14px;
+}
+</style>
+<body>
+	<DIV id="r-div1" style="display:">
+		<FORM id=login name=login method="post" action="__URL__/teamdetail">
+			<input type="text" id="id" name="id"
+				value="{$teamdata.id|default=-1}" />
+			<DIV>
+				<DIV id=u26_rtf>
+					<p style="text-align: left;">
+						<span
+							style="font-family: 微软雅黑; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: #333333;">小组主题</span>
+					</p>
+				</DIV>
+			</DIV>
+			<INPUT id=name name=name type=text value="{$teamdata.name}">
+
+			<DIV>
+				<DIV id=u28_rtf>
+					<p style="text-align: left;">
+						<span
+							style="font-family: 微软雅黑; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: #333333;">小组介绍</span>
+					</p>
+				</DIV>
+			</DIV>
+
+			<textarea id=introduce name=introduce>{$teamdata.introduce}</textarea>
+			<DIV>
+				<DIV id=u28_rtf>
+					<p style="text-align: left;">
+						<span
+							style="font-family: 微软雅黑; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: #333333;">同步收藏标签</span>
+					</p>
+				</DIV>
+			</DIV>
+
+			<volist name="tags" id="vo"> <input type="checkbox"
+				id="tags" name="tags[]" value="{$vo.tag}"
+			<php>if(in_array($vo["tag"],$usertags)) echo 'checked' ; </php>
+			>{$vo.tag} </volist>
+			<DIV>
+				<DIV id=u28_rtf>
+					<p style="text-align: left;">
+						<span
+							style="font-family: 微软雅黑; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: #333333;">小组成员</span>
+						<select>
+							<option value="volvo">所有用户</option>
+							<option value="saab">我的关注</option>
+							<option value="opel">我的粉丝</option>
+							<option value="audi">相互关注</option>
+						</select>
+
+						<textarea id=inputor2 placeholder='@你要添加的人'
+							oninput="addusertext();" onpropertychange="addusertext();"></textarea>
+						<INPUT type=button onclick="adduser();" value="添加">
+					</p>
+
+				</DIV>
+				<div id=userdiv></div>
+			</DIV>
+			<INPUT id=u30 type=submit class="u30" value="提交">
+		</FORM>
+
+	</DIV>
+</body>
+
+<script type="text/javascript">
+	addusertext();
+	//@内容
+		var flagStr = "";
+	function addusertext() {
+		var flag = true;
+		var form = document.forms['login'];
+		var adduser = form.inputor2.value;
+
+		var strs = new Array(); //定义一数组
+		strs = adduser.split("@"); //字符分割     
+		var str = strs[strs.length - 1] //分割后的字符输出
+		if (flagStr == str.split("")[0]) {
+			flag = false;
+		}
+		flagStr = str.split("")[0];
+		if (str.length != "" && flag) {
+			$.post('__URL__/complete', {
+				'adduser' : adduser
+			}, function(json) {
+				var data = json.info;
+				$(function() {
+					data = $.map(data, function(value, i) {
+						return {
+							'name' : value,
+						};
+					});
+					$("textarea#inputor2").atwho({
+						at : "@",
+						tpl : "<li data-value='${name}'>${name} </li>",
+						'data' : data,
+						search_key : "name"
+					})
+
+				});
+
+			}, 'json');
+		}
+
+	}
+
+	function deleteDiv() {
+		var oDiv = document.getElementById("d2");
+		document.getElementById("addPhotoLabel").removeChild(oDiv);
+	}
+	//adduserdiv添加用户div
+	var a = 0;
+	function addUserDiv(data) {
+		var o = document.getElementById("userdiv");
+		var div = document.createElement("div");
+		div.id = div.name = "d" + a;
+		div.innerHTML = "<img src='"+data['profile_image_url']+"'></img>"
+				+ data['screen_name']
+				+ "<input type=hidden id=uid name=uid[] value="+data['id']+">";
+		document.getElementById("userdiv").appendChild(div);
+		a++;
+	}
+
+	//添加用户
+	function adduser() {
+		//addUserDiv("asadasd");
+		var form = document.forms['login'];
+		var adduser = form.inputor2.value;
+		$.post('__URL__/addUser', {
+			'adduser' : adduser
+		}, function(json) {
+			data = json.info;
+			for ( var i = 0; i < data.length; i++) {
+				addUserDiv(data[i]);
+			}
+
+		}, 'json');
+	}
+	addUserById();
+	//添加用户byid
+	function addUserById() {
+		var tslistdata = '{$tslistdata}';
+		$.post('__URL__/addUserById', {
+			'tslistdata' : tslistdata
+		}, function(json) {
+			data = json.info;
+			for ( var i = 0; i < data.length; i++) {
+				addUserDiv(data[i]);
+			}
+
+		}, 'json');
+	}
+</script>
+
+</html>

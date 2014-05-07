@@ -1,0 +1,14 @@
+@charset "utf-8";
+.layer_mini_info{padding:15px 20px;}
+.layer_mini_info .btn{padding:15px 0 0 11px;text-align:center;width:150px;}
+.layer_mini_info .btn a{margin:0 5px;}
+.layer_mini_info .noicon{margin:12px 0 0;}
+.layer_mini_info .ckbox{width:14px;height:14px;margin-right:5px;}
+.layer_mini_info .icon_error,
+.layer_mini_info .icon_del,
+.layer_mini_info .icon_succ,
+.layer_mini_info .icon_warn,
+.layer_mini_info .icon_ask{ vertical-align:-4px;*vertical-align:-1px;_vertical-align:1px;}
+
+.layer_mini_info_big{padding:20px 30px;font-size:14px;}
+.layer_mini_info_big span{vertical-align:middle;}

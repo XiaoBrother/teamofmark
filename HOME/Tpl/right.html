@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript"
+	src="__ROOT__/HOME/Tpl/js/jquery-1.7.2.min.js"></script>
+<title>小组列表</title>
+<style type="text/css">
+body {
+	width: 980px;
+	margin: auto
+}
+
+li {
+	list-style-type: none;
+}
+
+.right {
+	float: right;
+	padding-top: 3px;
+	border-top: 1px solid rgb(220, 220, 220);
+	border-bottom: 1px solid rgb(220, 220, 220);
+	width: 210px;
+	color: #C8C8C8;
+}
+
+.right .ul {
+	float: left;
+	padding-left: 0px;
+	text-align: left;
+	width: 210px;
+}
+
+.right .ul li {
+	padding-left: 0px;
+}
+
+.right .ul li a {
+	color: rgb(102, 102, 102);
+	line-height: 25px;
+	display: block;
+}
+
+.right .ul li a:hover {
+	background-color: rgb(244, 244, 244);
+	text-decoration: none;
+	text-decoration: underline;
+}
+
+.right .ul li a:link {
+	text-decoration: none;
+}
+
+.right .ul li a:visited {
+	text-decoration: none;
+}
+
+.right h2 {
+	float: left;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	padding-left: 0px;
+}
+
+.tm_ul {
+	float: left;
+	margin-top:0px;
+	padding-left: 5px;
+}
+.tm_ul li{
+	padding-left: 5px;
+}
+</style>
+</head>
+<body>
+
+	<div id="right" class="right">
+		<ul class="ul">
+			<li><a
+				href="http://{$Think.server.HTTP_HOST}/teamofmark/index.php/Team/teamdetail">
+					新建小组</a></li>
+			<li><h2 title="我创建的小组" class="title">我创建的小组</h2>
+				<ul style="display: block;" class="tm_ul">
+					<volist name="myteam" id="vo">
+					<li><a
+						href="http://{$Think.server.HTTP_HOST}/teamofmark/index.php/Team/team?tid={$vo.teamid}">{$vo.name}
+							(微博数 用户数{$vo.num})</a></li>
+					</volist>
+
+				</ul></li>
+			<li>
+				<h2 title="我加入的小组" class="title">我加入的小组</h2>
+				<ul style="display: block;" class="tm_ul">
+					<volist name="team" id="vo">
+
+					<li><a
+						href="http://{$Think.server.HTTP_HOST}/index.php/Team/team?tid={$vo.teamid}">{$vo.name}
+							(微博数 用户数{$vo.num})</a></li>
+					</volist>
+
+				</ul>
+			</li>
+			<li>
+				<h2 title="邀请我的小组" class="title">邀请我的小组</h2>
+				<ul style="display: none;" class="tm_ul">
+					<volist name="jointeam" id="vo">
+					<li><a
+						href="http://{$Think.server.HTTP_HOST}/teamofmark/index.php/Team/team?tid={$vo.teamid}">{$vo.name}
+							(微博数 用户数{$vo.num})</a></li>
+					</volist>
+
+				</ul>
+			</li>
+
+		</ul>
+	</div>
+	<script type="text/javascript">
+		$(".title").click(function() {
+			$(this).next().toggle();
+			//alert($(this).children("ul").style()); //.toggle();
+
+		});
+	</script>
